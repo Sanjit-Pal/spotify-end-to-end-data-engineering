@@ -4,7 +4,7 @@
 In this project, I have build an automated ELT (Extract, Transform and Load) data pipeline using Spotify API on AWS. This project will fetch Spotify API response for a playlist, load it into raw_data S3 bucket and then extract 3 different datasets (album, artist, song) out of each json file and store it in transformed S3 folder.
 
 ### Architecture
-![Architecture Diagram] (https://github.com/Sanjit-Pal/spotify-end-to-end-data-engineering/blob/main/Architecture.JPG)
+![Architecture Diagram](https://github.com/Sanjit-Pal/spotify-end-to-end-data-engineering/blob/main/Architecture.JPG)
 
 ### About API
 This API contains information about music albums, artists and songs
